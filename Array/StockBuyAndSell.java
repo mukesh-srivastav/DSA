@@ -3,8 +3,6 @@
  * Find all the days on which you buy and sell the stock so that in between those days your profit is maximum.
  */
 
- /*package whatever //do not write package name here */
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
