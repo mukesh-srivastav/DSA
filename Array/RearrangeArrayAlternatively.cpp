@@ -10,17 +10,17 @@ using namespace std;
 // Prints max at first position, min at second position 
 // second max at third position, second min at fourth 
 // position and so on. 
-void rearrange(int *arr, int n) 
+void rearrange(long *arr, long n) 
 { 
     // initialize index of first minimum and first 
     // maximum element 
-    int max_idx = n - 1, min_idx = 0; 
+    long max_idx = n - 1, min_idx = 0; 
   
     // store maximum element of array 
-    int max_elem = arr[n - 1] + 1; 
+    long max_elem = arr[n - 1] + 1; 
   
     // traverse array elements 
-    for (int i = 0; i < n; i++) { 
+    for (long i = 0; i < n; i++) { 
         // at even index : we have to put maximum element 
         if (i % 2 == 0) { 
             arr[i] += (arr[max_idx] % max_elem) * max_elem; 
@@ -39,7 +39,7 @@ The purpose of this expression is to store two elements at index arr[i]. arr[max
 For example in {1 2 3 4 5 6 7 8 9}, max_element is 10 and we store 91 at index 0. With 91, we can get original element as 91%10 and new element as 91/10.
   */
     // array elements back to it's original form 
-    for (int i = 0; i < n; i++) 
+    for (long i = 0; i < n; i++) 
         arr[i] = arr[i] / max_elem; 
 }
 
@@ -48,16 +48,16 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--) {
-	    int n;
+	    long n;
 	    cin>>n;
-	    int a[n];
-	    for(int i=0; i<n; i++) {
+	    long a[n];
+	    for(long i=0; i<n; i++) {
 	        cin>>a[i];
 	    }
 	    
 	    rearrange(a,n);
 	    
-	    for(int i=0; i<n; i++) {
+	    for(long i=0; i<n; i++) {
 	        cout<<a[i]<< " ";
 	    }
 	    cout<<endl;
