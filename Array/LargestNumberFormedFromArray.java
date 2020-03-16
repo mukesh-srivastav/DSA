@@ -6,7 +6,7 @@
 import java.util.*;
 import java.io.*;
 
-class GFG {
+class LargestNumberFormedFromArray {
 	public static void main (String[] args) {
 		//code
 		//code
