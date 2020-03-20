@@ -7,10 +7,12 @@
 
 /*package whatever //do not write package name here */
 
+/*package whatever //do not write package name here */
+
 import java.util.*;
 import java.io.*;
 
-class LongestPalindromeInString {
+class GFG {
 	public static void main (String[] args) {
 		//code
 		Scanner sc=new Scanner(System.in);
@@ -38,6 +40,7 @@ class LongestPalindromeInString {
 		        for(int i=0; i<n-k+1; ++i) {
 		            int j = i+k-1;
 		            
+		            // if s.substring(i+1, j-1) is palindrome then check for s.substring(i,j)
 		            if (dp[i+1][j-1] && s.charAt(i) == s.charAt(j)) {
 		                dp[i][j] = true;
 		                if(k>maxLength) {
