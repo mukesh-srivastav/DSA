@@ -10,7 +10,7 @@
 import java.util.*;
 import java.io.*;
 
-class GFG {
+class FormAPalindrome {
 	public static void main (String[] args) {
 		//code
 		
