@@ -47,6 +47,8 @@ public class AddTwoNumbersRepresentedByLinkedLists {
                 System.out.println();
                 T--;
             }
+
+            sc.close();
         }
     }// } Driver Code Ends
     
