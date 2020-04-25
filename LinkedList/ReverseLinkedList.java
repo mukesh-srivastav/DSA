@@ -2,10 +2,10 @@ package LinkedList;
 
 
 class Node {
-    int value;
+    int data;
     Node next;
     Node(int value) {
-       this.value = value;
+       this.data = value;
     }
 }
 
