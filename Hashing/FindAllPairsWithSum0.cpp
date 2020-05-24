@@ -4,6 +4,7 @@ using namespace std;
 
 /**
  * Given two unsorted arrays A of size N and B of size M of distinct elements, the task is to find all pairs from both arrays whose sum is equal to X.
+ * Output is supposed to be sorted.
  * Example:
 Input:
 2
