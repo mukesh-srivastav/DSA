@@ -85,7 +85,7 @@ public class FindAllFourSumQuadruples {
 		    }
 		    System.out.println();
 		    
-        }
+        }   
         sc.close();
 	}
 }
