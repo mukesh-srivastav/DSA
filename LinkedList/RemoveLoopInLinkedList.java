@@ -39,8 +39,7 @@ public class RemoveLoopInLinkedList {
         
         while(ptr2.next != ptr1.next) {
             ptr2 = ptr2.next;
-        ptr1 = ptr1.next;
-            
+            ptr1 = ptr1.next;
         }
         
         ptr1.next = null;
