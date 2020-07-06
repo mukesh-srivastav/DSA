@@ -21,7 +21,7 @@ public class FirstNegativeIntegerInWindowOfSizeK {
 		    int k = sc.nextInt();
 		    
 		    int curr = 0;
-		    LinkedList<Integer> di = new LinkedList<Integer>();
+		    Queue<Integer> di = new LinkedList<Integer>();
 		    
 		    for (int i=0; i<k; i++) {
 		        if (a[i] < 0)
