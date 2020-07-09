@@ -1,0 +1,29 @@
+1.  Design A meeting Scheduler: 
+        - LLD: https://leetcode.com/discuss/interview-question/490962/Design-Meeting-Scheduler
+
+2.  Design a LRU Cache:
+        - LLD: Using Generics: https://www.journaldev.com/32688/lru-cache-implementation-in-java
+        - LLD: without Generics: https://www.geeksforgeeks.org/design-a-data-structure-for-lru-cache/
+
+3. Google's Autocomplete feature: 
+        - LLD + HLD: https://youtu.be/us0qySiUsGU
+
+4. Design BookMyShow: 
+        - HLD: https://medium.com/@narengowda/bookmyshow-system-design-e268fefb56f5
+
+5. Design a load balancer’s algorithm so that it redirects the traffic between three services s1, s2, s3 by 50%, 30% and 20%. further clause added to handle various clients calling to specific services.
+        - LLD: https://medium.com/@wolfbang/load-balance-algorithm-with-java-e7fb55fe788a
+
+6. Design a deck of cards: 
+        - LLD: https://www.geeksforgeeks.org/design-data-structuresclasses-objectsfor-generic-deck-cards/
+
+7. Design a vending machine:
+        - LLD: https://leetcode.com/discuss/interview-question/125218/design-a-vending-machine
+
+8. Design a whatsapp like service:
+        - HLD: https://geekibuti.blogspot.com/2016/10/design-messaging-service-like-whatsapp.html
+        - HLD + LLD: https://techtakshila.com/system-design-interview/chapter-1
+        - HLD: https://leetcode.com/discuss/interview-question/220073/How-would-you-design-WhatsApp/223070
+
+9. Design a chess game:
+        - LLD: https://www.geeksforgeeks.org/design-a-chess-game/
