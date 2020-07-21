@@ -28,3 +28,28 @@
 
 9. Design a chess game:
         - LLD: https://www.geeksforgeeks.org/design-a-chess-game/
+
+10. Design an in memory file System:
+        - LLD: https://www.geeksforgeeks.org/design-data-structures-algorithms-memory-file-system/?ref=rp
+
+11. Design Instagram:
+        - HLD + LLD: https://www.geeksforgeeks.org/design-scalable-system-like-instagram/?ref=rp
+
+12. Design Youtube: 
+        - HLD + LLD: https://www.geeksforgeeks.org/design-video-sharing-system-like-youtube/?ref=rp
+
+14. Design System Like foursquare: 
+        - HLD + LLD: https://www.geeksforgeeks.org/design-scalable-system-like-foursquare/?ref=rp
+
+15. Design a logistic system:
+        - HLD + LLD: https://www.geeksforgeeks.org/design-a-logistics-system/?ref=rp
+
+16: Design online hotel booking system:
+        - LLD: https://www.geeksforgeeks.org/design-online-hotel-booking-system-like-oyo-rooms/?ref=rp
+
+17. Design online book reader:
+        - LLD: https://www.geeksforgeeks.org/design-an-online-book-reader-system/?ref=rp
+
+
+Top 10 System design questions and answers: 
+https://www.geeksforgeeks.org/top-10-system-design-interview-questions-and-answers/?ref=rp
